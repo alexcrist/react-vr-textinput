@@ -472,7 +472,7 @@ class TextInput extends Component {
             />
           </View>
         {this.state.focus ? (
-        <View style={{transform: [{ translate: [this.state.x -0.2, this.state.y, this.state.z] }, {rotateX: -30}] }}>
+        <View>
           <Keyboard
             keyboardOnHover={this.props.keyboardOnHover} 
             keyboardColor={this.props.keyboardColor} 
